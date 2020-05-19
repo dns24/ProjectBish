@@ -27,6 +27,7 @@ psycopg2
 psycopg2-binary
 pybase64
 pyfiglet
+
 pylast
 pySmartDL
 python-barcode
