@@ -8,7 +8,6 @@ cowpy
 cffi
 dnspython
 emoji
-github
 gitpython
 google-api-python-client
 google-auth-httplib2
