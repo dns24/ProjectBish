@@ -95,8 +95,8 @@ TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", None)
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 
 # GITHUB Module
-GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", 35efebcd756c5f87e9a9451729c9d80ed2fa9e99)
-GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", ProjectBish)
+GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
+GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 
 # remove.bg API key
 REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
