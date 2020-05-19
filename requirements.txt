@@ -2,6 +2,7 @@ aiohttp
 aria2p
 async_generator
 bs4
+covid
 cowpy
 # cryptg
 cffi
@@ -25,6 +26,7 @@ Pillow
 psycopg2
 psycopg2-binary
 pybase64
+pyfiglet
 pylast
 pySmartDL
 python-barcode
