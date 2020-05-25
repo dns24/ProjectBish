@@ -49,3 +49,4 @@ git+https://github.com/johnwmillr/LyricsGenius.git
 
 
 PyGithub
+google_drive_sql
