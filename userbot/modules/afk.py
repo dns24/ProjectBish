@@ -159,7 +159,7 @@ async def afk_on_pm(sender):
                 if AFKREASON:
                     await sender.reply("I'm OFFLINE right now."
                                        f"\nReason: `{AFKREASON}`."
-                                       f"\nAFK since: {afk_str}")
+                                       f"\nOFFLINE since: {afk_str}")
                 else:
                     await sender.reply(str(choice(AFKSTR)))
                 USERS.update({sender.sender_id: 1})
