@@ -64,10 +64,10 @@ async def telegraphs(graph):
                         TEMP_DOWNLOAD_DIRECTORY
                     )
                     m_list = None
-                    with open(downloaded_file_name, "rb") as f:
-                        m_list = f.readlines()
+                    with open(downloaded_file_name, "rb") as fd:
+                        m_list = fd.readlines()
                     for m in m_list:
-                        page_content += m.decode("UTF-16") + "\n"
+                        page_content += m.decode("UTF-8","ignore") + "\n"
                     os.remove(downloaded_file_name)
                 page_content = page_content.replace("\n", "<br>")
                 response = telegraph.create_page(
